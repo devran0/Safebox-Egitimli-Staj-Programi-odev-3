@@ -1,3 +1,4 @@
-SELECT  title WHEN avg(lenght)>5
+SELECT  title
 FROM film
-GROUP BY title;
+GROUP BY title
+HAVING AVG(lenght)>5;
