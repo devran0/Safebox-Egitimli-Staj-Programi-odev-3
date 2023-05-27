@@ -1,0 +1,13 @@
+Code Red'in Davranış Kodu Red, sunucuya TCP bağlantı noktası 80 aracılığıyla bir GET /default.ida isteği gönderir. Kod, Microsoft'un dizin oluşturma yazılımı Internet Information Server'daki (IIS) arabellek taşması güvenlik açığından yararlanmak için yazılmıştır. Sonuç olarak, kod IIS sunucusu içinde çalışacaktır. Solucan virüsü tamamen bellekte çalışır ve sabit sürücüde algılanamaz. 3.569 bayt boyutundadır.
+
+Solucanın yükü, virüslü web sitesinin görüntülenmesi için bozulmalarını içerir:
+
+MERHABA! http://www.worm.com/welcome.html Çince hacklendi!
+
+İnternette diğer IIS sunucularını arayarak bulaşmasını 1. Gün ile 19. Gün arasında genişletmeye çalışır.
+
+günden 27. güne kadar, Hizmet Reddi Saldırıları kullanarak belirtilen IP adresleriyle ilişkili sisteme bulaşır .
+
+Ayın 28'inden itibaren aktif saldırı yok.
+
+Solucan, sunucunun uzak bir iş istasyonunda çalışıp çalışmadığını ve güvenlik açığı bulunan bir IIS sürümünü çalıştırıp çalıştırmadığını veya hatta güvenlik açığı bulunan makineleri tararken IIS çalıştırıp çalıştırmadığını kontrol etmedi.
